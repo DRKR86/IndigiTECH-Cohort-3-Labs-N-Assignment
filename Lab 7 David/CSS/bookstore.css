@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* David Robidoux Nov 6/2024 Lab 7 */
+
+body {
+  background-color: coral;
+}
+h1 {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 5rem;
+  color: #ffeb3b;
+}
+
+nav {
+  text-align: center;
+}
+
+h2 {
+  color: #ffeb3b;
+}
+
+p {
+  text-align: center;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: darkblue;
+}
+.remove {
+  font-size: large;
+  list-style-type: none;
+  /* Navbar Container */
+  background-color: #0bd712;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Hover Effect */
+.remove a:hover {
+  background-color: #0b0ed7; /* Change background on hover */
+  color: #ffeb3b; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+img {
+  width: 400px;
+}
+
+.booklist {
+  font-family: "Itim", cursive;
+  font-weight: 600;
+  font-style: normal;
+  background-color: white;
+  margin-right: 85%;
+  color: red;
+  list-style-type: upper-roman;
+}
+
+address {
+  font-family: cursive;
+  font-size: 2rem;
+  color: red;
+}
+
+.hours {
+  font-size: 2rem;
+  color: rebeccapurple;
+  text-align: end;
+  list-style-type: none;
+}
+.store {
+  text-align: end;
+}
