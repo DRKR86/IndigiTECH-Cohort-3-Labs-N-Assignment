@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Library Room Booking</title>
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <!-- David Robidoux Nov 12/2024 Lab 10 -->
+  </head>
+  <body>
+    <header>
+      <h1>Library Conference Room Booking</h1>
+    </header>
+    <caption>
+      Room Reservation in the frist week October
+    </caption>
+    <table class="outside">
+      <thead>
+        <tr>
+          <th colspan="6">Days of the week</th>
+        </tr>
+        <tr>
+          <th>Time</th>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows 1 to 9 -->
+        <tr>
+          <th>8:00am-9:00am</th>
+          <td rowspan="4">Porjeck Planning Seminar</td>
+          <!-- sunday -->
+          <td>Scrapbooking Club</td>
+          <!--monday -->
+          <td rowspan="3">Free</td>
+          <!--tuesday -->
+          <td rowspan="2" colspan="2">Job Interview workshop</td>
+          <!--  wedesday -->
+        </tr>
+        <tr>
+          <th>9:00am-10:00am</th>
+          <td>Sport activies</td>
+        </tr>
+        <tr>
+          <th>10:00am-11:00am</th>
+          <td>Private use</td>
+          <td>Chemistry tutoring</td>
+          <td>Math tutoring</td>
+        </tr>
+        <tr>
+          <th>11:00am-12:00pm</th>
+
+          <td rowspan="2">Reading CLub</td>
+          <td>Student Sucees Webinar</td>
+          <td>Free</td>
+          <td>Private Use</td>
+        </tr>
+        <tr>
+          <th>12:00pm-13:00pm</th>
+          <td rowspan="2">Math tutoring</td>
+          <td>Free</td>
+          <td rowspan="2">Staffing Meeting</td>
+          <td rowspan="2">It Club</td>
+        </tr>
+        <tr>
+          <th>13:00pm-14:00pm</th>
+          <td colspan="2">Free</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="6">
+            For room Reservation, Please Contact
+            <a href="mailto:libary@cna-qater.edu.qa">libary@cna-qater.edu.qa</a>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
