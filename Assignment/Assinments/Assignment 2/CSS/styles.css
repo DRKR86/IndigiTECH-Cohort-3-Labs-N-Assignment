@@ -1,0 +1,13 @@
+@charset "utf-8"
+/* David Robidoux Nov 6/2024 Assignment 2 */
+
+body {
+  background-color: burlywood;
+}
+
+#featured-Song {
+  border: 15px solid yellow;
+  background-color: black;
+  padding: 20px;
+  color: yellowgreen;
+}
