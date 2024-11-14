@@ -1,0 +1,31 @@
+@charset "uft-8";
+/* David Robidoux Nov 13/2024 Lab 11 */
+
+.container_main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+article {
+  width: 50%;
+}
+
+.classic {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.classic ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review_top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review_top ul {
+  display: flex;
+  flex-wrap: wrap;
+}

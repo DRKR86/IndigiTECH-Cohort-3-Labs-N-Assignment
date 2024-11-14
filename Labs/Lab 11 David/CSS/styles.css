@@ -1,0 +1,86 @@
+@charset "uft-8";
+/* David Robidoux Nov 13/2024 Lab 11 */
+.games {
+  width: 30%;
+  height: auto;
+}
+
+.games p {
+  width: 50%;
+}
+
+.games h3 {
+  width: 50%;
+}
+
+.reviews {
+  width: 30%;
+  height: auto;
+}
+
+.reviews p {
+  width: 50%;
+}
+
+.reviews h3 {
+  width: 50%;
+}
+
+h1 {
+  font-size: 50px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: red;
+}
+p {
+  font-family: "Caveat";
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: whitesmoke;
+  word-spacing: 1.5px;
+}
+
+body {
+  background-color: black;
+}
+
+footer {
+  color: red;
+  align-items: center;
+}
+
+* Navbar styling */ nav {
+  background-color: #333;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 1.5rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  color: #ff6347; /* Change this color as you like */
+}
