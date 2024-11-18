@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* =David Robidoux Nov 12/2024 Lab 13 */
+
+/* General styles  */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #ffc107;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
