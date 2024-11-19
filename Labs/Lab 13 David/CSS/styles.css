@@ -1,27 +1,126 @@
 @charset "utf-8";
-/* =David Robidoux Nov 12/2024 Lab 13 */
+/* =David Robidoux Nov 1/2024 Lab 13 */
 
 /* General styles  */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-}
 
 header {
   text-align: center;
   background-color: #ffc107;
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  margin: 0;
-  color: #fff;
+  font-family: cursive;
+  font-size: 5rem;
+  color: #a30a0a;
 }
 
 main {
   padding: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #a30a0a;
+  text-align: center;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin: 0;
+  color: #a30a0a;
+}
+.savor {
+  text-align: center;
+}
+
+footer {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  text-align: center;
+  color: #a30a0a;
+}
+
+li {
+  text-align: center;
+  font-size: 25;
+  list-style-position: inside;
+}
+
+#color {
+  background-color: skyblue;
+  margin: 0 700px 0 700px;
+}
+/* General styles for recips page */
+.card_one {
+  background-color: skyblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+.card_two {
+  background-color: skyblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+.card_three {
+  background-color: skyblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+.card_four {
+  background-color: skyblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+.card_five {
+  background-color: skyblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+.card_six {
+  background-color: skyblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+.card_one:hover {
+  transform: scale(1.05);
+}
+.card_two:hover {
+  transform: scale(1.05);
+}
+.card_three:hover {
+  transform: scale(1.05);
+}
+.card_four:hover {
+  transform: scale(1.05);
+}
+.card_five:hover {
+  transform: scale(1.05);
+}
+.card_six:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 200px;
 }
