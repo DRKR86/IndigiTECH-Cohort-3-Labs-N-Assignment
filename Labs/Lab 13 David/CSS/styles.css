@@ -51,7 +51,9 @@ li {
 
 #color {
   background-color: skyblue;
-  margin: 0 700px 0 700px;
+  width: 60%;
+  margin: auto;
+  align-items: center;
 }
 /* General styles for recips page */
 .card_one {

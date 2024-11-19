@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* =David Robidoux Nov 19/2024 Lab 9 */
+
+header {
+  background-color: lightskyblue;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  border: 2px dashed black;
+}
+
+nav ul li {
+  border: dashed black;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 2px;
+}
+
+nav li {
+  background-color: rgb(238, 187, 21);
+  justify-content: space-evenly;
+}
+
+#side1 {
+  background-color: rgb(250, 248, 163);
+  list-style-position: inside;
+}
+
+#side2 {
+  background-color: rgb(250, 248, 163);
+  list-style-position: inside;
+  padding: 2px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#intro {
+  background-color: rgb(233, 236, 9);
+  word-spacing: 1px;
+  border: 2px dashed black;
+}
+
+#main {
+  background-color: rgb(233 236, 13);
+  word-spacing: 1px;
+  border: 2px dashed black;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+#footer1 {
+  border: 2px dashed black;
+  background-color: #b24bf3;
+  color: white;
+}
+
+#footer2 {
+  border: 2px dashed black;
+  background-color: #b24bf3;
+  color: white;
+}
+
+#footer3 {
+  border: 2px dashed black;
+  background-color: #b24bf3;
+  color: white;
+}
