@@ -1,0 +1,160 @@
+@charset "utf 8";
+/* David Robidoux Nov 20/2024 Assignment 5 */
+
+/* Grid Layout 1 */
+
+.container div {
+  padding: 5%;
+  background-color: lightgreen;
+}
+
+/* Grid Layout 2 */
+
+#container div {
+  padding: 5%;
+}
+#header {
+  background-color: orange;
+}
+#main {
+  background-color: blue;
+}
+
+#sidebar {
+  background-color: red;
+}
+#footer {
+  background-color: green;
+}
+
+/* Grid Layout 3 */
+
+.container_3 div {
+  padding: 5%;
+}
+
+.head {
+  background-color: blue;
+}
+
+.hero {
+  background-color: rgb(175, 175, 238);
+}
+
+.content {
+  background-color: rgb(235, 212, 6);
+}
+
+.side_2 {
+  background-color: green;
+}
+
+.extra {
+  background-color: grey;
+}
+
+.related {
+  background-color: rgb(80, 212, 3);
+}
+
+.post {
+  background-color: lightpink;
+}
+
+.foot {
+  background-color: rgb(231, 131, 1);
+}
+
+/* Grid Layout 4 */
+
+.container_4 {
+  background-color: rgb(241, 207, 230);
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+nav {
+  color: rgb(175, 175, 175);
+  text-align: center;
+}
+
+nav ul li {
+  background-color: black;
+  border: dashed rgb(221, 218, 13);
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(204, 20, 189);
+}
+
+#div_1 {
+  padding: 5%;
+  background-color: rgb(207, 17, 160);
+  border: 3px dashed yellow;
+  margin: 10px;
+}
+#div_2 {
+  padding: 5%;
+  background-color: rgb(207, 17, 160);
+  border: 3px dashed yellow;
+  margin: 10px;
+}
+
+#div_3 {
+  padding: 5%;
+  background-color: rgb(207, 17, 160);
+  border: 3px dashed yellow;
+  margin: 10px;
+}
+
+#div_4 {
+  padding: 5%;
+  background-color: rgb(207, 17, 160);
+  border: 3px dashed yellow;
+  margin: 10px;
+}
+
+#div_5 {
+  padding: 5%;
+  background-color: rgb(207, 17, 160);
+  border: 3px dashed yellow;
+  margin: 10px;
+}
+
+#div_6 {
+  padding: 5%;
+  background-color: rgb(207, 17, 160);
+  border: 3px dashed yellow;
+  margin: 10px;
+}
+
+#c4_ft1 {
+  border: 3px dashed yellow;
+  background-color: black;
+  color: rgb(204, 20, 189);
+  list-style-position: inside;
+  padding: 5%;
+  margin: 10px;
+}
+
+.c4_ft2 {
+  border: 3px dashed yellow;
+  background-color: black;
+  color: rgb(204, 20, 189);
+  list-style-position: inside;
+  padding: 5%;
+  margin: 10px;
+}
+
+.c4_ft3 {
+  border: 3px dashed yellow;
+  background-color: black;
+  color: rgb(204, 20, 189);
+  padding: 5%;
+  margin: 10px;
+}
+
+#remove {
+  list-style-type: none;
+}
