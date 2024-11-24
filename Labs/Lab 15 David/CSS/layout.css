@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* =David Robidoux Nov 21/2024 Lab 15*/
+
+body {
+  margin: auto;
+  width: 80%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "header header"
+    "welcome intro"
+    "high high"
+    "why why";
+}
+
+.pulse {
+  grid-area: header;
+}
+
+.welcome_m {
+  grid-area: welcome;
+}
+
+.intro {
+  grid-area: intro;
+}
+
+.highlights {
+  grid-area: high;
+}
+
+.highlights ol {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.why {
+  grid-area: why;
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .highlights ol {
+    grid-template-columns: 1fr;
+  }
+}
