@@ -1,0 +1,145 @@
+@charset "utf 8";
+/* David Robidoux Nov 22/2024 Assignment 6 */
+
+/*  no min and max width  */
+
+/* @media for 900px  */
+
+@media (max-width: 900px) {
+  #product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .product {
+    width: 80%;
+  }
+  body {
+    background-color: none;
+  }
+  #container {
+    width: 100%;
+    padding: 5px;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+
+/* @media for 700 */
+
+@media (max-width: 700px) {
+  #product-grid {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .product {
+    width: 80%;
+  }
+  body {
+    background-color: none;
+  }
+  #container {
+    width: 100%;
+    padding: 5px;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  color: #555;
+  background-color: #ccc;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: x-large;
+  color: #2195c6;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 2%;
+}
+
+.product-image {
+  text-align: center;
+}
+
+.product {
+  width: 30%;
+  border: 1px dashed grey;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.product img {
+  width: 80%;
+}
+
+.product .description {
+  text-align: center;
+}
+
+/* pseudo-class styling area */
+.product-image {
+  opacity: 0.5;
+}
+
+.product-image:hover {
+  opacity: 1;
+}
+
+#product-grid .product:nth-child(even) {
+  border: 2px solid grey; /* Grey border for even phones */
+}
+
+#product-grid .product:nth-child(odd) {
+  border: 2px solid green; /* Green border for odd phones */
+}
+
+.description::selection {
+  background-color: yellow; /* Highlighted background */
+  color: green; /* Highlighted text color */
+}
+
+/* Navbar container */
+.navbar {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Hamburger button */
+.hamburger {
+  width: 40px;
+  height: 40px;
+  /* cursor: pointer; */
+}
+
+/* Navigation menu */
+.nav-menu {
+  position: absolute;
+  display: none; /* Initially hidden */
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+/* Icons in the navigation menu */
+.nav-menu a {
+  display: flex;
+  margin: 10px 0;
+  align-items: end;
+}
+
+/* Show the navigation menu when hovering over the navbar */
+.navbar:hover .nav-menu {
+  display: flex;
+}
