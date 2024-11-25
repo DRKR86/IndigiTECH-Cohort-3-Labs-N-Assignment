@@ -1,11 +1,32 @@
 @charset "utf 8";
 /* David Robidoux Nov 14/2024 Lab 12*/
 
-/* main {
+main {
   display: flex;
-} */
+  text-align: left;
+}
 
+/* Nav layout */
 nav {
-  display: inline;
-  justify-items: center;
+  display: flex;
+  background-color: cornflowerblue;
+  font-size: 2rem;
+  justify-content: space-evenly;
+  /* margin: 50px; */
+}
+nav:hover {
+  background-color: yellow;
+  color: chartreuse;
+}
+
+.welcome_mess {
+  display: flex;
+}
+
+article {
+  margin: 10%;
+}
+
+.welcome_mess {
+  margin: 5%;
 }
