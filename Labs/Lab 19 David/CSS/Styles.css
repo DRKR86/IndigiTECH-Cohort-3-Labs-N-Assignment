@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* David Robidoux Dec 2/2024 Lab 19 */
+
+body {
+  background-color: rgb(228, 10, 192);
+}
+
+h1,
+h2 {
+  color: rgb(15, 33, 194);
+}
+
+ol {
+  color: rgb(3, 10, 14);
+}
+
+footer {
+  color: rgb(3, 10, 14);
+}

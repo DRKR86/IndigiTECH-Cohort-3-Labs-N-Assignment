@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Volunteer Sign-Up</title>
+    <link rel="stylesheet" href="./CSS/layout.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <!-- David Robidoux Nov 25/2024 Lab 16 -->
+    <style>
+      body {
+        background-color: black;
+        color: red;
+      }
+      nav:hover {
+        color: #a5b612;
+        background-color: #f50909;
+      }
+      nav {
+        font-size: 2em;
+      }
+      div {
+        display: flex;
+        width: 15%;
+        flex-direction: column;
+        margin: auto;
+      }
+
+      input {
+        background-color: black;
+        color: red;
+      }
+      button {
+        background-color: black;
+        color: #f50909;
+      }
+
+      legend {
+        border: red;
+      }
+      button:hover {
+        color: #d9f00f;
+        background-color: #f50909;
+      }
+      legend {
+        text-align: center;
+        font-size: 3em;
+      }
+      h2 {
+        text-align: center;
+        font-size: 2em;
+      }
+      footer {
+        font-size: 20px;
+        text-align: end;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Kindred Spirits Community Center!</h1>
+    </header>
+    <nav>
+      <a href="#signup"></a>
+      <a href="../index.html">Home</a>
+    </nav>
+    <main>
+      <h2>Volunteer Sign-Up Form</h2>
+      <br />
+      <br />
+      <br />
+      <form action="" method="post">
+        <legend>Volunteer Sign-Up Form</legend>
+        <div>
+          <label for="frist name">Frist Name</label>
+          <input type="text" id="first name" name="fristname" />
+
+          <label for="last name">Last Name</label>
+          <input type="text" id="last name" name="lastname" />
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" />
+
+          <label for="interests">List Your interests</label>
+          <input type="text" id="interests" name="interests" />
+
+          <label for="availability">Availability</label>
+          <input type="text" id="availability" name="availability" />
+
+          <button type="submit">Sumit Feedback</button>
+          <button tupe="reset">Reset</button>
+        </div>
+      </form>
+    </main>
+    <br />
+    <br /><br />
+    <br />
+    <footer>Copyright &copy; 2024 All Rights Reserved to David Robidoux</footer>
+  </body>
+</html>

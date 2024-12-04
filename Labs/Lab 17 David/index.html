@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbuzz Coffee Form</title>
+    <link rel="stylesheet" href="./CSS/layout.css" />
+    <!-- David Robidous Nov 26/2024 Lab 16 -->
+  </head>
+  <body>
+    <header>
+      <h1>Starbuzz Coffee Shop</h1>
+    </header>
+    <main>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Starbuzz Coffee Order Form</legend>
+          <label for="coffee bean">Choose Your beans</label>
+          <select name="bean" id="bean">
+            <option value="house">House Blend</option>
+            <option value="dark roast">Dark Roast</option>
+            <option value="blonde roast">Blonde Roast</option>
+            <option value="carmel drizzle">Carmel Drizzle</option>
+            <option value="christmas cookie">Christmas Cookie</option>
+            <option value="black ivory coffee">Black Ivory Coffee</option>
+            <option value="kopi luwak coffee ">The Kopi Luwak Coffee</option>
+          </select>
+          <label>What Type of Bean:</label>
+          <label for="whole bean">Whole Bean</label>
+          <input name="whole bean" id="wb" value="wb" type="radio" />
+          <label for="ground">Ground</label>
+          <input name="whole bean" id="ground" value="g" type="radio" />
+
+          <label>Extras:</label>
+          <label for="giftwrap">Gift Wrap</label>
+          <input type="checkbox" name="extras" id="giftwrap" value="giftwrap" />
+          <label for="catalog">Includ Catalog With Orders</label>
+          <input type="checkbox" name="extras" id="catalog" value="catalog" />
+        </fieldset>
+
+        <fieldset>
+          <label>Ship To</label>
+          <label for="frist name"
+            >First Name:
+            <input
+              type="text"
+              name="fname"
+              id="fist name"
+              placeholder="First Name"
+            />
+          </label>
+
+          <label for="last name"
+            >Last Name:
+            <input
+              type="text"
+              name="lname"
+              id="last name"
+              placeholder="Last Name"
+            />
+          </label>
+          <label for="address"
+            >Address:
+            <input
+              type="text"
+              name="address"
+              id="address"
+              placeholder="Address"
+            />
+          </label>
+          <label for="city">City or Town: </label>
+          <input type="text" name="city" id="city" placeholder="City" />
+
+          <label for="province"
+            >Province
+            <input
+              type="text"
+              name="province"
+              id="province"
+              placeholder="Province"
+            />
+          </label>
+
+          <label for="postal code"
+            >Postal Code
+            <input
+              type="text"
+              name="postal code"
+              id="postal code"
+              placeholder="Postal Code"
+            />
+          </label>
+          <label for="customer comments">
+            Customer comments
+            <textarea name="cotomer comments" id="customer comments"> </textarea
+            ><br />
+            <label>button</label>
+            <button type="button">Order Now</button>
+          </label>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

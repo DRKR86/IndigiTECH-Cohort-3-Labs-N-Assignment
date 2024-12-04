@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* David Robidoux Nov 26/2024 Lab 16 */
+
+body {
+  background-color: rgb(10, 18, 238);
+  min-width: 800px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+#bean {
+  color: rgb(235, 9, 66);
+}
+form {
+  text-align: center;
+  color: rgb(235, 9, 66);
+}
+h1 {
+  color: rgb(235, 9, 66);
+}
+
+option {
+  color: rgb(235, 9, 66);
+}
+
+button {
+  background-color: black;
+  color: rgb(235, 9, 66);
+}
+
+button:hover {
+  background-color: #8eb405;
+  color: #ca04dc;
+}
+
+input {
+  background-color: wheat;
+  width: 100%;
+}
+label {
+  width: 100%;
+}
+textarea {
+  background-color: wheat;
+}
