@@ -151,11 +151,38 @@ button {
 }
 /* Styling For form Layout two  */
 
-.bottom_Part {
+/* #bottom_Part {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "visa master" "card card" "date date" "cvv cvv"
+    "button button";
+} */
+.visa {
+  grid-area: visa;
 }
 
+#remove {
+  grid-area: master;
+}
+
+.number {
+  grid-area: card;
+}
+
+.months {
+  grid-area: date;
+}
+
+#years {
+  grid-area: date;
+}
+.cvv {
+  grid-area: cvv;
+}
+#next_button {
+  grid-area: button;
+}
 /* Removes the defult arrow in credit number box reseach how to remove like Hans asked  */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

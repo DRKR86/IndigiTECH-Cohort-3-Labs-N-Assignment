@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* David Robidoux Dec 4/2024 Assignment 8*/
+body {
+  background-color: rgba(184, 88, 11, 0.493);
+  color: rgb(223, 3, 223);
+}
+
+main {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 6em;
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+p,
+div {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 4em;
+}
+
+footer {
+  font-size: 3em;
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+}
+
+img {
+  width: 1000px;
+  padding-left: 18%;
+}

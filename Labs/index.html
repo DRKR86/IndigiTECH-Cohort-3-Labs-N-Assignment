@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Problem Set</title>
+    <!-- David Robidoux Dec 13/2024 Lab 24 -->
+  </head>
+  <body>
+    <h1>Mini Problem Set:</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum assumenda
+      tenetur nihil quia ad dolores laudantium rerum eaque beatae voluptatem!
+      Quae nemo voluptatum necessitatibus tenetur nostrum ipsum illo labore eum!
+    </p>
+    <script>
+      // 1 User Age Tracker
+      let age = Number(prompt("Enter Your Age??"));
+      if (age <= 0) {
+        age = Number(prompt("Please use valid Number"));
+      }
+      alert("you are " + age + " years old ");
+
+      //   2 Favorite Foods List
+      let input;
+      let food = "";
+      while (input !== "no") {
+        input = prompt("enter food you like");
+        food += input + "";
+      }
+      alert(food + " " + " ");
+    </script>
+  </body>
+</html>

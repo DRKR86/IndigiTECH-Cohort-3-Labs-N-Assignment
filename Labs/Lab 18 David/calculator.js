@@ -1,1 +1,0 @@
-<script>Prompt( )</script>;

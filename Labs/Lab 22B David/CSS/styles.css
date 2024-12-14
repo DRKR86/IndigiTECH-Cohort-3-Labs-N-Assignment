@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* David Robidoux Dec 9/2024 Lab 22B */
+
+body {
+  background-color: darkred;
+  min-width: 800px;
+  max-width: 1200px;
+  margin: auto;
+}
+h1 {
+  font-size: 3em;
+  color: cornflowerblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 2em;
+  color: cornflowerblue;
+  text-align: center;
+  font-family: cursive;
+
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+img {
+  width: 50em;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+footer {
+  font-size: 3em;
+  color: cornflowerblue;
+  text-align: center;
+  font-family: cursive;
+}

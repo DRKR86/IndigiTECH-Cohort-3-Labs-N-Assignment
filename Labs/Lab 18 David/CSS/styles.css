@@ -1,1 +1,22 @@
 @charset "uft-8";
+/* David Robidoux Dec 3/2024 Lab 18 */
+
+body {
+  background-color: blanchedalmond;
+  color: rgb(74, 19, 204);
+  text-align: center;
+}
+
+input {
+  background-color: rgb(6, 8, 6);
+  color: red;
+}
+button {
+  background-color: crimson;
+}
+button:hover {
+  background-color: darkmagenta;
+}
+h1 {
+  text-align: center;
+}

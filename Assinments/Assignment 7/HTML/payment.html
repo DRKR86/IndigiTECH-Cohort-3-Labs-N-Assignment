@@ -47,9 +47,14 @@
           />
         </fieldset>
 
-        <fieldset class="bottom_part">
+        <fieldset id="bottom_part">
           <legend>Billing Information</legend>
-          <input type="image" src="../Images/visa.png" alt="Visa" />
+          <input
+            class="visa"
+            type="image"
+            src="../Images/visa.png"
+            alt="Visa"
+          />
           <input type="radio" name="visa" id="visa" value="payment" checked />
 
           <input
@@ -58,12 +63,18 @@
             src="../Images/master.png"
             alt="Master Card"
           />
-          <input type="radio" name="visa" id="mastcard" value="payment" />
+          <input
+            class="mastcard"
+            type="radio"
+            name="visa"
+            id="mastcard"
+            value="payment"
+          />
 
-          <label for="">Credit Card Number</label>
+          <label class="number" for="card">Credit Card Number</label>
           <input type="number" name="card" id="credit" />
 
-          <label for="">Expiry Date</label>
+          <label class="months" for="month">Expiry Date</label>
           <select name="month" id="months">
             <option value="jan">Jan</option>
             <option value="feb">Feb</option>
@@ -84,7 +95,7 @@
             <option value="2023">2023</option>
             <option value="2022">2022</option>
           </select>
-          <label for="cvv_code">CVV</label>
+          <label class="cvv" for="cvv_code">CVV</label>
           <input type="number" id="cvv_code" name="cvv_code" />
           <button id="next_button" type="button">Next</button>
         </fieldset>
