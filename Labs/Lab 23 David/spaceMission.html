@@ -4,12 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Space Mission Countdown</title>
+    <!-- David Robidoux Dec 25/2024 Lab 23 -->
   </head>
   <body>
     <h1>Space Mission Countdown</h1>
-  <p>Mission Control is Preparing for Liftoff. are you ready for the Countdown?</p>
-  <script>
-    
-  </script>
+    <p>
+      Mission Control is Preparing for Liftoff. are you ready for the Countdown?
+    </p>
+    <script>
+      function startCountdown() {
+        let i;
+        for (i = 10; i > 0; i--) {
+          console.log("T-minus " + i);
+          alert("T-minus " + i);
+          let ready = prompt("Is mission control ready? (yes/no)");
+          if (ready.toLowerCase() !== "yes") {
+            console.log("Countdown paused. Waiting for mission control.");
+            alert("Countdown paused. Waiting for mission control.");
+          }
+        }
+        if (i === 0) {
+          console.log("Liftoff!");
+          alert("Liftoff!");
+        }
+      }
+      startCountdown();
+    </script>
   </body>
 </html>
