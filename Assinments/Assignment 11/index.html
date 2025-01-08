@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loops and if statements</title>
+    <!--David Robidoux Jan 8/2025 Assignment 11
+     -->
+  </head>
+  <body>
+    <h1>Loops and if statements</h1>
+
+    <script>
+      //    Task One: Number Check
+
+      let number = prompt("Please enter a number:");
+      number = parseFloat(number);
+
+      if (number > 0) {
+        console.log("Positive");
+      } else if (number < 0) {
+        console.log("Negative");
+      } else {
+        console.log("Zero");
+        alert("Zero");
+      }
+
+      //   task Two: Loop Throught Numbers
+      for (let i = 1; i <= 10; i++) {
+        console.log(i);
+      }
+
+      //   Task Three: Even or Odd Numbers Checker
+      for (let i = 1; i <= 10; i++) {
+        if (i % 2 === 0) {
+          console.log(i + " is Even");
+        } else {
+          console.log(i + " is Odd");
+        }
+      }
+
+      //   Task Four: Sum of Numbers
+      let userNumber = prompt("Please enter a number:");
+      userNumber = parseInt(userNumber);
+      let totalSum = 0;
+      let counter = 1;
+
+      while (counter <= userNumber) {
+        totalSum += counter;
+        counter++;
+      }
+      console.log(
+        "The sum of numbers from 1 to " + userNumber + " is: " + totalSum
+      );
+
+      //   Task Five: Countdown Timer
+      let countdownNumber = prompt("Please enter a number for countdown:");
+      countdownNumber = parseInt(countdownNumber);
+
+      while (countdownNumber >= 0) {
+        console.log(countdownNumber);
+        countdownNumber--;
+      }
+      console.log("Time's up");
+
+      //   Task Six: FizzBuzz (Bonus)
+      for (let i = 1; i <= 30; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+          console.log("FizzBuzz");
+        } else if (i % 3 === 0) {
+          console.log("Fizz");
+        } else if (i % 5 === 0) {
+          console.log("Buzz");
+        } else {
+          console.log(i);
+        }
+      }
+    </script>
+  </body>
+</html>

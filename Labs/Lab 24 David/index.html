@@ -13,22 +13,59 @@
       tenetur nihil quia ad dolores laudantium rerum eaque beatae voluptatem!
       Quae nemo voluptatum necessitatibus tenetur nostrum ipsum illo labore eum!
     </p>
+
     <script>
       // 1 User Age Tracker
-      let age = Number(prompt("Enter Your Age??"));
-      if (age <= 0) {
-        age = Number(prompt("Please use valid Number"));
+      let age = 0;
+      while (age <= 0) {
+        age = Number(prompt("Enter Your Age:"));
+        if (age <= 0) {
+          alert("Please enter a valid number greater than 0.");
+        }
       }
-      alert("you are " + age + " years old ");
+      alert("You are " + age + " years old.");
 
-      //   2 Favorite Foods List
+      // 2 Favorite Foods List
+      let foods = [];
       let input;
-      let food = "";
-      while (input !== "no") {
-        input = prompt("enter food you like");
-        food += input + "";
+      while (true) {
+        input = prompt("Enter a food you like (or type 'no' to finish):");
+        if (input.toLowerCase() === "no") {
+          break;
+        }
+        foods.push(input);
       }
-      alert(food + " " + " ");
+      alert("Your favorite foods are: " + foods.join(", "));
+
+      // 3 Count to a Number
+      let number = Number(prompt("Enter a number:"));
+      for (let i = 1; i <= number; i++) {
+        console.log(i);
+      }
+
+      // 4 Number Guessing Game
+      const secretNumber = 21;
+      let guess = 0;
+      while (guess !== secretNumber) {
+        guess = Number(prompt("Guess the secret number between 1 and 100:"));
+        if (guess < secretNumber) {
+          alert("Too low! Try again.");
+        } else if (guess > secretNumber) {
+          alert("Too high! Try again.");
+        } else {
+          alert("Congratulations! You've guessed the number.");
+        }
+      }
+
+      // 5 Multiplication Table
+      let tableNumber = Number(
+        prompt("Enter a number to see its multiplication table:")
+      );
+      let table = "Multiplication Table for " + tableNumber + ":\n";
+      for (let i = 1; i <= 10; i++) {
+        table += tableNumber + " x " + i + " = " + tableNumber * i + "\n";
+      }
+      alert(table);
     </script>
   </body>
 </html>

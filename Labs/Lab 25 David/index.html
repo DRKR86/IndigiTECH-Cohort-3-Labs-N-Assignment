@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spaceship’s success!</title>
+  </head>
+  <body>
+    <h1>spaceship’s success!</h1>
+
+    <p>
+      spaceship’s success! is a game where you are the captain of a spaceship
+      and you have to navigate through space to reach the end of the level. You
+      have to avoid asteroids and other obstacles that will try to destroy your
+      spaceship. You can also collect power-ups that will help you in your
+      journey. The game is simple to play but hard to master. Can you reach the
+      end of the level?
+    </p>
+
+    <script>
+      let spaceModules = [1, 0, 1, 1, 0, 0, 1, 0, 1, 1];
+      let malfunctioningCount = 0;
+
+      for (let i = 0; i < spaceModules.length; i++) {
+        if (spaceModules[i] === 0) {
+          malfunctioningCount++;
+        }
+      }
+
+      console.log("Number of malfunctioning modules: " + malfunctioningCount);
+
+      let firstFunctionalIndex = -1;
+      let lastFunctionalIndex = -1;
+
+      // Find the first functional module
+      for (let i = 0; i < spaceModules.length; i++) {
+        if (spaceModules[i] === 1) {
+          firstFunctionalIndex = i;
+          break;
+        }
+      }
+
+      // Find the last functional module
+      for (let i = spaceModules.length - 1; i >= 0; i--) {
+        if (spaceModules[i] === 1) {
+          lastFunctionalIndex = i;
+          break;
+        }
+      }
+
+      console.log(
+        "Index of the first functional module: " + firstFunctionalIndex
+      );
+      console.log(
+        "Index of the last functional module: " + lastFunctionalIndex
+      );
+
+      // Problem 3: Find the nearest functional docking bay
+      let dockingBays = [0, 0, 1, 0, 0, 1, 0, 1, 0, 0];
+      let nearestDockingBayIndex = -1;
+
+      for (let i = 0; i < dockingBays.length; i++) {
+        if (dockingBays[i] === 1) {
+          nearestDockingBayIndex = i;
+          break;
+        }
+      }
+
+      console.log(
+        "Index of the nearest functional docking bay: " + nearestDockingBayIndex
+      );
+
+      // Problem 4: Calculate fuel efficiency
+      let spaceshipSystem = [1, 0, 1, 1, 1, 0, 0, 1, 1];
+      let functionalCount = 0;
+
+      for (let i = 0; i < spaceshipSystem.length; i++) {
+        if (spaceshipSystem[i] === 1) {
+          functionalCount++;
+        }
+      }
+
+      console.log(
+        "Total count of functional modules (fuel efficiency): " +
+          functionalCount
+      );
+    </script>
+  </body>
+</html>
