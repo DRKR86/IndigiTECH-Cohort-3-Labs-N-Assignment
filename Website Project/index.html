@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DRKR Web Design and Maintancce page 1</title>
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/global.css" />
+    <link rel="stylesheet" href="./CSS/layout.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+      rel="stylesheet"
+    />
+    <!-- David Robidoux Dec 7/2024 Findal Project Cohort 3 -->
+    <style>
+      .fixed-height {
+        height: 400px; /* Set your desired height */
+        object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>DRKR Web Design and Maintenance</h1>
+      <br />
+      <img
+        class="logo"
+        src="../Website Project/Images/DRKR Logo.webp"
+        alt="Company Logo"
+      />
+      <br />
+      <nav>
+        <ul>
+          <li><a id="homeButton" href="#home">Home</a></li>
+          <li><a href="./HTML/services.html">Services</a></li>
+          <li><a href="./HTML/contact_subscribe.html">Contact Us</a></li>
+          <li><a href="./HTML/my_work.html">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <br />
+    <main>
+      <h2 class="intro">Introduction to DRKR Web Design and Maintenance</h2>
+
+      <section class="section_one">
+        <p class="wwa">
+          <!--  wwa (what we about) -->
+
+          Welcome to DRKR Web Design & Maintenance. We are a full-service web
+          design and development company that specializes in creating custom
+          websites for businesses of all sizes. Our team of experienced web
+          designers and developers will work with you to create a website that
+          meets your needs and exceeds your expectations. At DRKR Web Design and
+          Maintenance, we bring creativity and functionality together to craft
+          exceptional digital experiences. Our mission is to empower businesses
+          and individuals with websites that are visually stunning,
+          user-friendly, and optimized for performance.
+        </p>
+        <br />
+        <h3 class="services">Who We Are</h3>
+        <p class="wwa">
+          <!--  wwa (what we about) -->
+
+          DRKR is a forward-thinking web design agency dedicated to delivering
+          customized digital solutions tailored to your unique needs. With a
+          passion for innovation and a commitment to quality, we strive to help
+          our clients achieve their online goals seamlessly and efficiently.
+          Whether you’re a small business owner, a non-profit organization, or
+          an e-commerce manager, we have the expertise to bring your vision to
+          life. Our team is here to guide you through every step of the process,
+          from concept to launch and beyond.
+        </p>
+      </section>
+      <section class="section_two">
+        <h3 class="services">Our Services</h3>
+        <ol>
+          <li>
+            Custom Web Design: We create bespoke websites that reflect your
+            brand identity while ensuring a delightful user experience.
+          </li>
+          <li>
+            Website Maintenance: Keeping your site secure, up-to-date, and
+            running smoothly with regular maintenance services.
+          </li>
+          <li>
+            Responsive Design: Your site will look and perform beautifully on
+            all devices, from desktops to smartphones.
+          </li>
+          <li>
+            Search Engine Optimization (SEO): Enhancing visibility and driving
+            traffic through on-page optimization and performance enhancements.
+          </li>
+          <li>
+            E-commerce Solutions: Building secure, easy-to-navigate online
+            stores that drive sales
+          </li>
+          <li>
+            Content Management System (CMS) Integration: Simplifying site
+            management with user-friendly CMS platforms like WordPress or
+            Shopify.
+          </li>
+        </ol>
+        <br />
+        <h3 class="services">Why Choose DRKR?</h3>
+        <ul>
+          <li>
+            Experienced Team: Our skilled designers and developers are equipped
+            to handle projects of any complexity.
+          </li>
+          <li>
+            Customer-Centric Approach: We prioritize your vision and ensure it’s
+            reflected in every aspect of your website.
+          </li>
+          <li>
+            Scalable Solutions: From small startups to large enterprises, we
+            tailor our services to meet your specific needs
+          </li>
+          <li>
+            Affordable Pricing: Delivering high-quality work without breaking
+            the budget.
+          </li>
+        </ul>
+        <p class="wwa">
+          Let DRKR Web Design and Maintenance bring your ideas to life and
+          transform your online presence. Together, we can build a website that
+          not only meets your expectations but exceeds them. Feel free to tweak
+          this introduction to better match your company's tone and personality!
+        </p>
+      </section>
+      <br />
+
+      <br />
+      <!-- Your existing content -->
+      <div id="index_img">
+        <img
+          class="img_one fixed-height"
+          src="./Images/Lab_14.png"
+          alt="Lab 14 mockup of a website using grid"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img_two fixed-height"
+          src="./Images/Lab_2.png"
+          alt="Favrite signer mockup of a website"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img_three fixed-height"
+          src="./Images/Lab_3.png"
+          alt="Natue's beauty mockup of a website"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img_four fixed-height"
+          src="./Images/Lab_4.png"
+          alt="Traveler's blog mockup of a website"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img_five fixed-height"
+          src="./Images/Lab_6_CB1.png"
+          alt="Communtiy Notice Board mockup of a website A"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img_six fixed-height"
+          src="./Images/Lab_6_CB2.png"
+          alt="Communtiy Notice Board mockup of a website B"
+          onclick="openModal(this)"
+        />
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01" />
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <h3 class="bq_header">Testimonials from Our Happy Customers</h3>
+      <br />
+      <br />
+      <blockquote class="b_q">
+        "Working with DRKR was an absolute game-changer for our business! They
+        transformed our outdated website into a sleek, user-friendly platform
+        that our customers love." Alex R., Small Business Owner
+      </blockquote>
+      <br />
+      <br />
+      <blockquote class="b_q">
+        "DRKR's maintenance services keep our site running flawlessly. Knowing
+        they're just a call away gives me peace of mind." — Emily T., E-commerce
+        Manager
+      </blockquote>
+      <br />
+      <br />
+      <blockquote class="b_q">
+        "The team at DRKR is professional, responsive, and incredibly talented.
+        They turned my vision into reality with seamless design and
+        functionality!" — Jordan P., Non-Profit Coordinator
+      </blockquote>
+      <br />
+      <br />
+      <blockquote class="b_q">
+        "I’m beyond impressed with their attention to detail and creative
+        approach. I’ve seen a boost in traffic and conversions since launching
+        my new site." — Sophia K., Freelance Consultant
+      </blockquote>
+      <br />
+      <br />
+      <blockquote class="b_q">
+        We Encourage feedback with a call-to-action: Loved working with us? We’d
+        love to hear from you! Share your experience and help us improve. to add
+        your testimonial and sign up for our newsletter or leave us your contact
+        inforation for us to get back to you. click here
+        <a href="./HTML/contact_subscribe.html" class="button">Here</a>
+      </blockquote>
+      <br />
+      <br />
+      <br />
+      <a id="backToTopButton" href="#">Back to Top</a>
+    </main>
+    <br />
+    <br />
+    <br />
+    <footer>
+      <p>
+        &copy; <span id="currentYear"></span> All Rights Reserved to David
+        Robidoux
+      </p>
+    </footer>
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+
+      document
+        .getElementById("homeButton")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          window.scrollTo({
+            top: document.body.scrollHeight / 2,
+            behavior: "smooth",
+          });
+        });
+
+      document
+        .getElementById("backToTopButton")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
+    </script>
+    <script>
+      function openModal(img) {
+        var modal = document.getElementById("myModal");
+        var modalImg = document.getElementById("img01");
+        modal.style.display = "block";
+        modalImg.src = img.src;
+      }
+
+      function closeModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+      }
+    </script>
+  </body>
+</html>

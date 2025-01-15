@@ -1,0 +1,112 @@
+/* David Robidoux project dec 16/2024 */
+
+/* index page stylesing  */
+
+#imdex_img {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "img photo pic"
+    "raw dog last";
+}
+
+.img_one {
+  grid-area: img;
+}
+
+.img_two {
+  grid-area: photo;
+}
+
+.img_three {
+  grid-area: pic;
+}
+
+.img_four {
+  grid-area: raw;
+}
+
+.img_five {
+  grid-area: last;
+}
+
+.img_six {
+  grid-area: dog;
+}
+
+/*  Styling for subsribe & contact pages*/
+/* contact styling */
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: auto;
+}
+
+iframe {
+  width: 1000px;
+  height: 475px;
+  margin: 0 auto;
+  display: block;
+}
+
+.hours {
+  margin: auto; /* Center the text */
+}
+
+/* Stylig for images on My work page */
+.workpg_container_two {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.workpg_top_images {
+  display: flex;
+  justify-content: center;
+}
+
+.workpg_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lab_thirteen_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workpg_img {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.lab_seven_img {
+  display: block;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.lab_thirteen_img {
+  width: 600px;
+  height: 400px;
+  margin: 0 10px;
+}
+
+.workpg_img_one {
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+}
+
+.common_img {
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+}

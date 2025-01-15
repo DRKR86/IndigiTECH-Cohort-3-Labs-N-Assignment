@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* David Robidoux Dec 7/2024 Findal Project Cohort 3 */
+
+/* Styling for Page 1 Home/Index */
+
+.intro {
+  color: red;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; /* Set a specific width */
+  max-width: 600px; /* Optional: Set a maximum width */
+}
+
+.b_q {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(192, 132, 3);
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.bq_header {
+  color: red;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; /* Set a specific width */
+  max-width: 600px; /* Optional: Set a maximum width */
+}
+
+.services {
+  color: red;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; /* Set a specific width */
+  max-width: 600px; /* Optional: Set a maximum width */
+}
+
+.wwa {
+  color: rgb(192, 132, 3);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+ol,
+ul,
+li {
+  color: rgb(192, 132, 3);
+  text-align: center;
+  font-size: 1.5rem;
+  list-style: none;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+}
+
+.img_one {
+  width: 33%;
+  height: 33%;
+  margin: auto;
+  border-radius: 25px;
+}
+.img_two {
+  width: 33%;
+  height: 33%;
+  margin: auto;
+  border-radius: 25px;
+}
+.img_three {
+  width: 33%;
+  height: 33%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.img_four {
+  width: 33%;
+  height: 33%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.img_five {
+  width: 33%;
+  height: 33%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.img_six {
+  width: 33%;
+  height: 33%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+/* Styling for Testimonial button */
+.button {
+  color: red;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: rgba(16, 20, 236, 0.788);
+  color: white;
+}
+
+/* Styling For 2 Services */
+
+.table_head {
+  color: red;
+  font-size: 2em;
+  text-align: center;
+}
+
+table,
+tr,
+td {
+  color: rgb(192, 132, 3);
+  border: 1px solid red;
+  font-size: 25px;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #c90707;
+  font-size: 25px;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  padding: 10px;
+  margin: 10px auto;
+}
+
+td img {
+  width: 200px;
+}
+/* Stying for page 3 Contact us & Subscribe  */
+
+/* styling for Contact section  */
+.contact_us_h2 {
+  color: red;
+  font-size: 2em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; /* Set a specific width */
+  max-width: 600px; /* Optional: Set a maximum width */
+}
+
+.contact_us_h3 {
+  color: red;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; /* Set a specific width */
+  max-width: 600px; /* Optional: Set a maximum width */
+}
+.contact_us_ptags {
+  color: rgb(192, 132, 3);
+  font-size: 1.5em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.contact_us_address {
+  color: rgb(192, 132, 3);
+  font-size: 1.5em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 10px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; /* Set a specific width */
+  max-width: 600px; /* Optional: Set a maximum width */
+}
+
+.contact_us_phone {
+  color: rgb(192, 132, 3);
+  font-size: 1.5em;
+  text-align: center;
+}
+.p_num {
+  color: rgb(192, 132, 3);
+  font-size: 1.5em;
+  text-align: center;
+  justify-content: center;
+}
+.hours {
+  color: rgb(192, 132, 3);
+  font-size: 1.5em;
+  text-align: center;
+}
+
+form {
+  color: rgb(192, 132, 3);
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.submit_button {
+  color: rgb(192, 132, 3);
+  font-size: 1.5em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  border-radius: 25px; /* Makes the images round */
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; /* Set a specific width */
+  max-width: 600px; /* Optional: Set a maximum width */
+  border-radius: 25px;
+}
+
+.submit_button:hover {
+  background-color: red;
+  box-shadow: 0 0 15px red;
+}
+
+.reset_button {
+  color: rgb(192, 132, 3);
+  font-size: 1.5em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  border-radius: 25px; /* Makes the images round */
+  padding: 10px;
+}
+
+.reset_button:hover {
+  background-color: red;
+  box-shadow: 0 0 15px red;
+}
+
+iframe {
+  border: 1em double red; /* Add this line to set a red border */
+  width: 1000px;
+  height: 475px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 25px; /* Makes the images round */
+}
+
+/* Styling For Page 4 (My Works) */
+.workpg_h2 {
+  color: red;
+  font-size: 2.5em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; /* Set a specific width */
+  max-width: 600px; /* Optional: Set a maximum width */
+}
+
+.workpg_h3 {
+  color: red;
+  font-size: 2.5em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; /* Set a specific width */
+  max-width: 600px; /* Optional: Set a maximum width */
+}
+
+.workpg_ptags {
+  color: rgb(192, 132, 3);
+  font-size: 1.5em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+/* roudnig of the images of my labs  */
+
+.common_img {
+  border-radius: 25px; /* Makes the images round */
+}
+
+/* Modal Styling to make the images on my work page bigger */
+
+.modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px;
+  left: 0; /* 0 from the left side of the screen */
+  top: 0; /* 0 from the top of the screen */
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 1500px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: red;
+  padding: 10px 0;
+  height: 150px;
+  font-size: 30px;
+}
+
+.modal-content,
+#caption {
+  animation-name: zoom; /* Add animation on the modal */
+  animation-duration: 0.6s; /* Duration of the animation */
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0); /* The image will start from 0 size */
+  }
+  to {
+    transform: scale(1); /* The image will end at 1 size */
+  }
+}
+
+.close {
+  position: absolute; /* Position the close button */
+  top: 15px; /* 15px from the top */
+  right: 35px; /* 35px from the right */
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s; /* Add a transition effect */
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}

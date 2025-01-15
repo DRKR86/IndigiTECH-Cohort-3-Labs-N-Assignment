@@ -4,14 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pirate's Daily Life</title>
+    <!-- David Robidoux Jan 13, 2025 Lab 26  -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        color: deeppink;
+        margin-top: 0;
+        padding-top: 1em;
+        font-size: 3em;
+      }
+      h2 {
+        text-align: center;
+        color: deeppink;
+        margin-top: 0;
+        padding-top: 1em;
+        font-size: 2em;
+      }
+      .button-container {
+        text-align: center;
+        margin: 1em 0;
+        font-size: 2.5em;
+      }
+      button {
+        font-size: 1em;
+        padding: 0.5em 1em;
+        margin: 0.5em;
+        background-color: #333;
+        color: deeppink;
+        border: none;
+        border-radius: 0.25em;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: darkred;
+      }
+      #output {
+        margin: 1em;
+        padding: 1em;
+        background-color: black;
+        border: 1px solid deeppink;
+        border-radius: 0.25em;
+        color: deeppink;
+        font-size: 1.5em;
+      }
+    </style>
   </head>
   <body>
     <h1>Pirate's Daily Life</h1>
-    <p>
+    <h2>Click the Start button to see a pirate's daily life</h2>
+    <h2>Click the Start button again to see a pirate's daily life</h2>
+    <h2>Click the Stop button to stop the pirate's daily life</h2>
+    <div class="button-container">
       <button id="start">Start</button>
       <button id="stop">Stop</button>
-
-      <script src="pirate.js"></script>
-    </p>
+    </div>
+    <div id="output"></div>
+    <script src="./JavaScript/pirate.js"></script>
   </body>
 </html>

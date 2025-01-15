@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DRKR Web Design and Maintancce page 1</title>
+    <link rel="stylesheet" href="../CSS/reset.css" />
+    <link rel="stylesheet" href="../CSS/global.css" />
+    <link rel="stylesheet" href="../CSS/layout.css" />
+    <link rel="stylesheet" href="../CSS/styles.css" />
+    <!-- David Robidoux Dec 7/2024 Findal Project Cohort 3 -->
+  </head>
+  <body>
+    <header>
+      <h1>DRKR Web Design and Maintenance</h1>
+      <br />
+      <div class="image-container">
+        <img
+          src="../Images/DRKR Logo.webp"
+          alt="company Logo"
+          class="logo-contact-page"
+        />
+      </div>
+      <br />
+      <br />
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../HTML/services.html">Services</a></li>
+          <li><a href="#halfway-point">Contact Us</a></li>
+          <li><a href="../HTML/my_work.html">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact_us">
+        <h2 class="contact_us_h2">Contact Us</h2>
+        <br />
+        <p class="contact_us_ptags">
+          We are here to help you create a stunning website that showcases your
+          brand and drives results. Whether you are looking to launch a new
+          website or update an existing one, we have the skills and expertise to
+          bring your vision to life.
+        </p>
+
+        <p class="contact_us_ptags">
+          Thank you for visiting our website. We are excited to learn more about
+          your project and how we can help you achieve your goals. Please feel
+          free to reach out to us with any questions or to schedule a
+          consultation.
+        </p>
+
+        <p class="contact_us_ptags">
+          Ready to take your online presence to the next level? Reach out to us
+          today to discuss your project needs, goals, and vision. We look
+          forward to collaborating with you to create a website that stands out
+          from the competition.
+        </p>
+        <section>
+          <br />
+          <br />
+          <h3 class="contact_us_h3">Contact information</h3>
+          <br />
+          <h3 class="contact_us_h3">DRKR Web Design & Maintenance</h3>
+          <address class="contact_us_address">
+            3-2931 Chandler Dr
+            <br />
+            Port Perry, ON, Canada
+            <br />
+            L9L 1B6
+            <br />
+            Phone: 226-402-1234
+            <br />
+            Email: Davidrkr86@outlook.com
+          </address>
+        </section>
+        <br />
+        <br />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d880.3174530908947!2d-78.88943403033205!3d44.171416260111265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d56d6b12c33591%3A0x5e97b81284376eb7!2s2931%20Chandler%20Dr%2C%20Port%20Perry%2C%20ON%20L9L%201B6!5e1!3m2!1sen!2sca!4v1735349614337!5m2!1sen!2sca"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <br />
+        <section>
+          <h3 class="contact_us_h3">Hours of Operation</h3>
+          <br />
+          <p class="contact_us_ptags">
+            Our office is open Monday through Thursday from 9am to 5pm. We are
+            closed on Sundays and holidays.
+          </p>
+          <p class="contact_us_ptags">
+            Please note that our office hours may vary during the holiday
+            season. Contact us for more information.
+          </p>
+          <p class="contact_us_ptags">
+            We look forward to hearing from you and discussing your project
+            needs.
+          </p>
+          <br />
+          <br />
+
+          <table class="hours">
+            <tr class="hours">
+              <th>Sunday</th>
+              <td>Closed</td>
+            </tr>
+            <tr class="hours">
+              <th>Monday</th>
+              <td>12pm - 8pm</td>
+            </tr>
+            <tr class="hours">
+              <th>Tuesday</th>
+              <td>10am - 4pm</td>
+            </tr>
+            <tr class="hours">
+              <th>Wednesday</th>
+              <td>10am - 4pm</td>
+            </tr>
+            <tr class="hours">
+              <th>Thursday</th>
+              <td>10am - 4pm</td>
+            </tr>
+            <tr class="hours">
+              <th>Friday</th>
+              <td>9am - 1pm</td>
+            </tr>
+            <tr class="hours">
+              <th>Sunday</th>
+              <td>Closed</td>
+            </tr>
+          </table>
+        </section>
+        <br />
+        <br />
+        <form class="contact_form" action="contact_me.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="First Name" />
+          <br />
+          <label for="last">Last Name</label>
+          <input type="text" id="last" name="last" placeholder="Last Name" />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <br />
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Please Leave Message Here"
+          ></textarea>
+          <br />
+          <label for="contact_method">Preferred Method of Contact:</label>
+          <br />
+          <input
+            type="radio"
+            id="contact_phone"
+            name="contact_method"
+            value="phone"
+          />
+          <label for="contact_phone">Phone Call</label>
+          <br />
+          <input
+            type="radio"
+            id="contact_email"
+            name="contact_method"
+            value="email"
+          />
+          <label for="contact_email">Email</label>
+          <br />
+          <input
+            type="radio"
+            id="contact_text"
+            name="contact_method"
+            value="text"
+          />
+          <label for="contact_text">Text Message</label>
+          <br />
+          <input class="submit_button" type="submit" value="Submit" />
+          <input class="reset_button" type="reset" value="Reset" />
+        </form>
+      </section>
+      <!-- scbscribe section -->
+
+      <section>
+        <br />
+        <br />
+        <h2 class="contact_us_h2">Subscribe to our Newsletter</h2>
+        <br />
+        <p class="contact_us_ptags">
+          Stay up to date with the latest news, tips, and trends in web design
+          and digital marketing by subscribing to our newsletter. Sign up today
+          to receive our monthly newsletter and stay informed about the latest
+          developments in the industry. Our newsletter is packed with valuable
+          information to help you grow your online presence and reach your
+          target audience. Whether you are a small business owner, entrepreneur,
+          or marketing professional, our newsletter is a valuable resource to
+          help you stay ahead of the competition. Sign up today to receive our
+          newsletter and start taking your online presence to the next level. We
+          look forward to sharing our insights and expertise with you to help
+          you achieve your goals.
+        </p>
+        <div id="halfway-point"></div>
+        <br />
+        <form class="contact_form" action="subscribe.php" method="post">
+          <label for="first_name">First Name:</label>
+          <input
+            type="text"
+            id="first_name"
+            name="first_name"
+            placeholder="First Name"
+          />
+          <br />
+          <label for="last_name">Last Name:</label>
+          <input
+            type="text"
+            id="last_name"
+            name="last_name"
+            placeholder="Last Name"
+          />
+          <br />
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username"
+          />
+          <br />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+          <br />
+          <label for="confirm_password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm_password"
+            name="confirm_password"
+            placeholder="Confirm Password"
+          />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <br />
+          <label for="phone">Phone Number:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Phone Number"
+          />
+          <br />
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" />
+          <br />
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" placeholder="Age" />
+          <br />
+          <label for="building_number">House Number:</label>
+          <input
+            type="text"
+            id="building_number"
+            name="building_number"
+            placeholder="House Number"
+          />
+          <br />
+          <label for="street_name">Street Name:</label>
+          <input
+            type="text"
+            id="street_name"
+            name="street_name"
+            placeholder="Street Name"
+          />
+          <br />
+          <label for="city">City:</label>
+          <br />
+          <select id="city" name="city">
+            <option value="Toronto">Toronto</option>
+            <option value="Vancouver">Vancouver</option>
+            <option value="Montreal">Montreal</option>
+            <option value="Calgary">Calgary</option>
+            <option value="Edmonton">Edmonton</option>
+            <option value="Ottawa">Ottawa</option>
+            <option value="Winnipeg">Winnipeg</option>
+            <option value="Quebec City">Quebec City</option>
+            <option value="Hamilton">Hamilton</option>
+            <option value="Kitchener">Kitchener</option>
+            <option value="London">London</option>
+            <option value="Victoria">Victoria</option>
+            <option value="Halifax">Halifax</option>
+            <option value="Oshawa">Oshawa</option>
+            <option value="Windsor">Windsor</option>
+            <option value="Saskatoon">Saskatoon</option>
+            <option value="Regina">Regina</option>
+            <option value="St. John's">St. John's</option>
+            <option value="Barrie">Barrie</option>
+            <option value="Kelowna">Kelowna</option>
+            <option value="Sherbrooke">Sherbrooke</option>
+            <option value="Guelph">Guelph</option>
+            <option value="Abbotsford">Abbotsford</option>
+            <option value="Kingston">Kingston</option>
+            <option value="Kanata">Kanata</option>
+            <option value="Trois-Rivières">Trois-Rivières</option>
+            <option value="Moncton">Moncton</option>
+            <option value="Thunder Bay">Thunder Bay</option>
+            <option value="Saint John">Saint John</option>
+            <option value="Peterborough">Peterborough</option>
+          </select>
+
+          <label for="subscribe_newsletter">Subscribe to Newsletter:</label>
+          <input
+            type="checkbox"
+            id="subscribe_newsletter"
+            name="subscribe_newsletter"
+          />
+          <br />
+          <input class="submit_button" type="submit" value="Subscribe" />
+          <input class="reset_button" type="reset" value="Reset" />
+        </form>
+      </section>
+      <section>
+        <br />
+        <br />
+        <h2 class="contact_us_h2">Testimonials</h2>
+        <br />
+        <p class="contact_us_ptags">
+          Read what our clients have to say about working with us. We take pride
+          in delivering exceptional service and results to our clients. Our team
+          of web designers and developers are dedicated to creating websites
+          that are visually stunning, user-friendly, and optimized for
+          performance. We work closely with our clients to understand their
+          needs and goals and create custom solutions that meet their unique
+          requirements. Our clients trust us to deliver high-quality websites.
+        </p>
+
+        <form class="contact_form" action="/submit_testimonial" method="post">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <br />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <br />
+          <label for="testimonial">Testimonial:</label>
+          <textarea
+            id="testimonial"
+            name="testimonial"
+            rows="4"
+            placeholder="Your Testimonial"
+            required
+          ></textarea>
+          <br />
+          <input class="submit_button" type="submit" value="Submit" />
+          <input class="reset_button" type="reset" value="Reset" />
+        </form>
+        <br />
+        <br />
+        <br />
+        <a id="backToTopButton" href="#">Back to Top</a>
+      </section>
+    </main>
+    <br />
+    <br />
+    <br />
+    <footer>
+      <p>
+        &copy; <span id="currentYear"></span> All Rights Reserved to David
+        Robidoux
+      </p>
+    </footer>
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
